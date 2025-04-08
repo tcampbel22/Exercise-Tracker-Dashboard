@@ -2,7 +2,7 @@
 
 <p id="description">Leverages Google Cloud Platform to sanitise and present inputted exercise in Looker</p>
 
-<img src="https://github.com/tcampbel22/Exercise-Tracker-Dashboard/blob/master/assets/Screenshot%20from%202025-04-08%2020-29-24.png" width="800" height="600" align="center">
+<img src="https://github.com/tcampbel22/Exercise-Tracker-Dashboard/blob/master/assets/Screenshot%20from%202025-04-08%2020-32-37.png?raw=true" width="800" height="600" align="center">
 
 ## About
 
@@ -27,10 +27,8 @@ flowchart TD
     G --> I[Data structured for Looker dashboard]
     H --> I[Data structured for Looker dashboard]
     I --> J[Data ready for visualization on Looker]
+```
 
-
-  
-  
 <h2>💻 Built with</h2>
 
 Technologies used in the project:
