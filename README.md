@@ -15,19 +15,13 @@ This exercise tracking app integrates with Google Sheets to manage and process w
 - **Automation for Looker Dashboard**: The prepared data is structured to easily integrate with Looker, providing seamless visualization for tracking exercise metrics like workout types, intensity, and duration.
 
 ### Workflow:
-```mermaid
-flowchart TD
-    A[User submits form with workout data] --> B[Google Sheets stores form data]
-    B --> C[Parse form data for email and workout details]
-    C --> D[Map email to user-specific tracker sheet]
-    D --> E[Insert parsed data into the appropriate tracker sheet]
-    E --> F{Conditional logic applied}
-    F -->|If formdata[6] exists| G[Insert formdata[6] into tracker sheet]
-    F -->|Else| H[Insert formdata[0] into tracker sheet]
-    G --> I[Data structured for Looker dashboard]
-    H --> I[Data structured for Looker dashboard]
-    I --> J[Data ready for visualization on Looker]
-```
+- User submits form with workout data
+- Google Sheets stores form data
+- Data is parsed for email and workout details
+- Map email to user-specific tracker sheet
+- Insert parsed data into the appropriate tracker sheet
+- Apply conditional logic for column insertion based on form data
+- Data structured and ready for Looker dashboard visualization
 
 <h2>💻 Built with</h2>
 
