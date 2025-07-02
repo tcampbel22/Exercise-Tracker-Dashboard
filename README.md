@@ -2,7 +2,7 @@
 
 <p id="description">Leverages Google Cloud Platform to sanitise and present inputted exercise in Looker</p>
 
-<img src="https://github.com/tcampbel22/Exercise-Tracker-Dashboard/blob/master/assets/Screenshot%20from%202025-04-08%2020-32-37.png?raw=true" align="center">
+<img src="https://github.com/tcampbel22/Exercise-Tracker-Dashboard/blob/master/assets/dash.png?raw=true" align="center">
 
 ## About
 
